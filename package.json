@@ -1,0 +1,26 @@
+{
+  "name": "molejo-tesseract",
+  "version": "1.0.0",
+  "description": "Generates a molejo parsed schedule based on the jpeg scheduled hosted on www.molejo.com.br/mobile ",
+  "main": "molejo-tesseract.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtrbtf/molejo-tesseract.git"
+  },
+  "keywords": [
+    "molejo"
+  ],
+  "author": "vtrbtf ( Vitor Freitas )",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vtrbtf/molejo-tesseract/issues"
+  },
+  "homepage": "https://github.com/vtrbtf/molejo-tesseract#readme",
+  "dependencies":{
+	"node-tesseract" : "*",
+	"request": "*"
+  }
+}
